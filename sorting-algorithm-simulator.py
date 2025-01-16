@@ -2,7 +2,6 @@
 #BSCS - 3
 #ITP 6 - Algorithm And Complexity
 
-import sys
 import random
 import time
 
@@ -110,7 +109,6 @@ def main():
     print("3. Insertion Sort")
     print("4. Merge Sort")
     print("5. Quick Sort")
-    print("Press 'Q'to quit")
     choice = int(input("Enter your choice (1/2/3/4/5): "))
     
     if choice == 1:
@@ -128,9 +126,6 @@ def main():
     elif choice == 5:
         print("Performing Quick Sort...")
         quick_sort(arr, 0, len(arr)-1)
-    elif choice == 'Q' or choice == 'q':
-        print("Quitting...")
-        sys.exit(0)
     else:
         print("Invalid choice!")
 
