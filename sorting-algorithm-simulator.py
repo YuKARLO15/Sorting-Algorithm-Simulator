@@ -1,3 +1,7 @@
+#Karlo Robert C. Wagan
+#BSCS - 3
+#ITP 6 - Algorithm And Complexity
+
 import sys
 import random
 import time
